@@ -7,9 +7,15 @@ Execute no terminal:
 composer install
 ```
 
+### Parâmetros
+tipo do jogo (obrigatório): quina, mega-sena ou loto-facil.
+quantidade de números (opcional): um número qualquer nunca menor que o valor mínimo para o tipo de jogo.
+
 ### Exemplo
 ```
 ./sorteios generate mega-sena
+
+./sorteios generate mega-sena 10
 ```
 
 ### Observações
