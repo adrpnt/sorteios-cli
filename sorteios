@@ -1,0 +1,12 @@
+#! /usr/bin/env php
+
+<?php
+
+use Symfony\Component\Console\Application;
+use App\GenerateCommand;
+
+require 'vendor/autoload.php';
+
+$app = new Application('Laracasts Demo', '1.0');
+$app->add(new GenerateCommand());
+$app->run();
